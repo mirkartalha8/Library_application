@@ -11,7 +11,7 @@ const Book = require("./model/Book.js");
 
 const app = express();
 
-mongoose.connect("mongodb://127.0.0.1:27017/Library");
+mongoose.connect("mongodb+srv://Admin:Qwerty12345@cluster0.prmpnbi.mongodb.net/?appName=Cluster0/Library");
 
 app.set("view engine", "ejs");
 
